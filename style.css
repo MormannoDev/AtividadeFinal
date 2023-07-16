@@ -15,10 +15,11 @@ main {
 .principal {
     position: absolute;
     left: 0;
+    top: 0;
     background-color: #7604a3;
    
     height: 100%;
-    width: 30%;
+    width: 25%;
 
 }
 
@@ -66,7 +67,6 @@ main {
     left: 35px;
     position: absolute;
     top: 20%;
-   
     
 }
 h1{
