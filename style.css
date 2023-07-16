@@ -1,0 +1,113 @@
+body {
+    background-color: #fff;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Roboto Mono', monospace;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.principal {
+    position: absolute;
+    left: 0;
+    background-color: #7604a3;
+   
+    height: 100%;
+    width: 30%;
+
+}
+
+.apresentar {
+    left: 30%;
+    position: absolute;
+    width: 70%;
+    height: 100%;
+}
+
+.perfil {
+    width: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+
+}
+
+.navegar {
+    position: absolute;
+    top: 50%;
+}
+
+.principalDiv {
+    width: 400px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navA, .navLi {
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 10px;
+     color:#fff ;
+}
+.apresentarDiv, .objetivosDiv{
+    display: flex;
+    flex-direction: column;
+    left: 35px;
+    position: absolute;
+    top: 20%;
+   
+    
+}
+h1{
+    margin: 20px 0;
+    font-weight: 700;
+    font-size: 40px;
+}
+p{
+    margin: 20px 0;
+    font-weight: 800;
+    
+}
+.objetivosLi{
+  padding: 10px;
+}
+ol{
+    margin:10px 20px;
+
+}
+
+.sobrenome {
+    color: red;
+}
+
+.email {
+    color: lime;
+    text-decoration: none;
+}
+
+.email:hover {
+    color:darkcyan ;
+    text-decoration: solid;
+}
+.contato {
+    position: absolute;
+    bottom:2%;
+    left: 33%;
+    color: red;
+    
+}
+
+.icons {
+    width: 50px;
+}
